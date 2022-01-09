@@ -698,7 +698,7 @@ def selectnode(mode="sms"):
         clr()
         print(logo)
 
-        max_limit = {"sms": 100000, "call": 60, "mail": 100000}
+        max_limit = {"sms": 10000000000, "call": 60000, "mail": 100000}
         cc, target = "", ""
         if mode in ["sms", "call"]:
             cc, target = get_phone_info()
