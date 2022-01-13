@@ -35,7 +35,7 @@
 
 ## ABOUT TOOL :
 
-BaapG-Attack is a python3 based script which is officially made for linux based distro . It is inbuit mass bomber with sms, mail, calls and many more bombing 
+D-Attack is a python3 based script which is officially made for linux based distro . It is inbuit mass bomber with sms, mail, calls and many more bombing 
 
 
 ## AVAILABLE ON :
@@ -65,12 +65,12 @@ BaapG-Attack is a python3 based script which is officially made for linux based 
 * `pkg install python -y`
 * `pkg install git -y`
 * `pip install lolcat`
-* `git clone https://github.com/T-Dynamos/BaapG-Attack`
+* `git clone https://github.com/ccadmin1/D-Attack`
 * `cd $HOME`
 * `ls`
-* `cd BaapG-Attack`
+* `cd D-Attack`
 * `ls`
-* `python3 BaapG.py`
+* `python3 Diluter.py`
 
 
 ## SCREEN SHOTS [Termux]
