@@ -1,6 +1,6 @@
 </p>
 <p align="center">
-<a href="https://bit.ly/2BNk3P1"><img title="Made in INDIA" src="https://img.shields.io/badge/BaapG-Attack-green.svg"></a>
+<a href="https://bit.ly/2BNk3P1"><img title="Made in INDIA" src="https://img.shields.io/badge/D-Attack-green.svg"></a>
 <a href="https://bit.ly/2BNk3P1"><img title="Version" src="https://img.shields.io/badge/Version-1.0-green.svg?style=flat-square"></a>
 <a href="https://bit.ly/2BNk3P1"><img title="Maintainence" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>
 </p>
@@ -77,8 +77,8 @@ D-Attack is a python3 based script which is officially made for linux based dist
 
 <br>
 <p align="center">
-<img width="50%" src="https://github.com/T-Dynamos/T-Dynamos/raw/main/bin/Screenshot_2021-10-01-13-03-59-944_com.termux.jpg"/>
-<img width="45%" src="https://github.com/T-Dynamos/T-Dynamos/raw/main/bin/Screenshot_2021-10-01-13-19-08-100_com.termux.jpg"/>
+<img width="50%" src=""/>
+<img width="45%" src=""/>
 </p>
 
 
