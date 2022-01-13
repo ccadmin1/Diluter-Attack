@@ -10,7 +10,7 @@
 
 <p align="center">
 
-<img src="https://github.com/T-Dynamos/T-Dynamos/raw/main/bin/IMG_20211001_131953.jpg"/>
+<img src="https://telegra.ph/file/9cf68e487267ffe2c2d2b.jpg"/>
 
 
 
