@@ -334,7 +334,7 @@ def sms():
 	    	   st = str(line.replace("b'",""))
 	    	   s = st.replace("'","")
 	    	   target = s
-	    	   print(f"{B}[{W}{i}{B}] {C} 140 Sms + Calls : {G}{target}")
+	    	   print(f"{B}[{W}{i}{B}] {C}  Sms + Calls : {G}{target}")
 	    	   infinity()
 	    	   print()
 	    except KeyboardInterrupt:
