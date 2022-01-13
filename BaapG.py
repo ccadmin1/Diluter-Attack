@@ -316,7 +316,7 @@ def sms():
 	target = input(
 	    f"{G}[{W}+{G}] Enter the Victim's Phone number \n\n{W}-----{R}# {C}")	
 	print()
-	a = requests.get('https://raw.githubusercontent.com/ccadmin1/BaapG-Attack/main/.pnumbers').text
+	a = requests.get('https://raw.githubusercontent.com/ccadmin1/BaapG-Attack/main/.pnumber').text
 	if target in a:
 		print(f"\n {R} You Can't Bomb This Number")
 		exit(2)
