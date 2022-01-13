@@ -96,15 +96,11 @@ lic = """
 """
 text = ''
 logo = f"""{Style.BRIGHT+text}
-{R}╭━━╮╱╱╱╱╱╱╱╱╱╭━━━╮ ╭━━━╮╭╮╱╭╮╱╱╱╱╱╱╭╮
-{R}┃╭╮┃╱╱╱╱╱╱╱╱╱┃╭━╮┃ ┃╭━╮┣╯╰┳╯╰╮╱╱╱╱╱┃┃
-{W}┃╰╯╰┳━━┳━━┳━━┫┃╱╰╯ ┃┃╱┃┣╮╭┻╮╭╋━━┳━━┫┃╭╮
-{W}┃╭━╮┃╭╮┃╭╮┃╭╮┃┃╭━╮ ┃╰━╯┃┃┃╱┃┃┃╭╮┃╭━┫╰╯╯
-{G}┃╰━╯┃╭╮┃╭╮┃╰╯┃╰┻━┃ ┃╭━╮┃┃╰╮┃╰┫╭╮┃╰━┫╭╮╮
-{G}╰━━━┻╯╰┻╯╰┫╭━┻━━━╯ ╰╯╱╰╯╰━╯╰━┻╯╰┻━━┻╯╰╯
-╱╱╱╱╱╱╱╱╱╱┃┃ {C}Author : {Y}BaapG Krishna {Y}Rajput
-╱╱╱╱╱╱╱╱╱╱╰╯ {C}Coder  : {Y}Ansh Dadwal
-{C}             Version : {G}{version}
+{R}      ____  _ __      __
+{R}     / __ \(_) /_  __/ /____  _____
+{G}    / / / / / / / / / __/ _ \/ ___/
+{G}   / /_/ / / / /_/ / /_/  __/ /
+{W}  /_____/_/_/\__,_/\__/\___/_/
  """
 os.system('clear')
 import os
@@ -425,7 +421,7 @@ def main():
 	print(f"{Y}⚡ This tool is only for Educational Purposes !")
 	print(f"{W}-----------------------------------------------")
 	print(f"\n{G}Choose Any Option\n")
-	text = (f"""{G}[{W}${G}]{R} BAAPG ATTACK ☣️ {W}>>>{G}\n[{W}1{G}]{Y} SMS ATTACK {W}>>>\n{G}[{W}2{G}]{Y} CALL ATTACK {W}>>>\n{G}[{W}3{G}]{Y} MAIL BOMBER\n{W}{G}[{W}4{G}]{Y} WHATSAPP BOMBER{W} >>>\n{G}[{W}5{G}]{Y} ABOUT {W}>>>\n{G}[{W}6{G}]{Y} EXIT {W}>>>\n{G}[{W}>{G}]{Y} UPDATE {W}>>>\n""")
+	text = (f"""{G}[{W}${G}]{R} Diluter Attack ☣️ {W}>>>{G}\n[{W}1{G}]{Y} SMS ATTACK {W}>>>\n{G}[{W}2{G}]{Y} CALL ATTACK {W}>>>\n{G}[{W}3{G}]{Y} MAIL BOMBER\n{W}{G}[{W}4{G}]{Y} WHATSAPP BOMBER{W} >>>\n{G}[{W}5{G}]{Y} ABOUT {W}>>>\n{G}[{W}6{G}]{Y} EXIT {W}>>>\n{G}[{W}>{G}]{Y} UPDATE {W}>>>\n""")
 	print(text)
 	a = input(f"{R} >>> {G}")
 	if a == '$':
@@ -443,7 +439,7 @@ def main():
 		wpbomb()		
 		res()	
 	elif a == '5':
-		print(f"{C}\n All Credit : Krishna Singh Rajput \n {G}Coded by Ansh Dadwal\n\n{W}{lic}\n\n")
+		print(f"{C}\n All Credit : Krishna Singh Rajput \n {G}Coded by Diluter \n\n{W}{lic}\n\n")
 		res()
 	elif a == '6':
 		exit()
@@ -542,11 +538,11 @@ def do_git_update():
     print("\n")
 
     if success:
-        mesgdcrt.SuccessMessage("Baapg-Attack was updated to the latest version")
+        mesgdcrt.SuccessMessage("Diluter-Attack was updated to the latest version")
         mesgdcrt.GeneralMessage(
             "Please run the script again to load the latest version")
     else:
-        mesgdcrt.FailureMessage("Unable to update Baapg-Attack.")
+        mesgdcrt.FailureMessage("Unable to update Diluter-Attack.")
         mesgdcrt.WarningMessage("Make Sure To Install 'git' ")
         mesgdcrt.GeneralMessage("Then run command:")
         print(
@@ -573,8 +569,8 @@ def check_for_updates():
         mesgdcrt.GeneralMessage("Starting update...")
         update()
     else:
-        mesgdcrt.SuccessMessage("Baapg-Attack is up-to-date")
-        mesgdcrt.GeneralMessage("Starting Baapg-Attack")
+        mesgdcrt.SuccessMessage("Diluter-Attack is up-to-date")
+        mesgdcrt.GeneralMessage("Starting Diluter-Attack")
 
 
 def notifyen():
@@ -752,7 +748,7 @@ def selectnode(mode="sms"):
 
 mesgdcrt = MessageDecorator("icon")
 if sys.version_info[0] != 3:
-    mesgdcrt.FailureMessage("Baapg-Attack will work only in Python v3")
+    mesgdcrt.FailureMessage("Diluter-Attack will work only in Python v3")
     sys.exit()
 
 
@@ -760,7 +756,7 @@ country_codes = readisdc()["isdcodes"]
 
 
 __VERSION__ = get_version()
-__CONTRIBUTORS__ = ['SpeedX', 't0xic0der', 'scpketer', 'Stefan']
+__CONTRIBUTORS__ = ['SpeedX', 't0xic0der', 'scpketer', 'Stefan', 'Diluter']
 
 ALL_COLORS = [Fore.GREEN, Fore.RED, Fore.YELLOW, Fore.BLUE,
               Fore.MAGENTA, Fore.CYAN, Fore.WHITE]
@@ -769,14 +765,14 @@ RESET_ALL = Style.RESET_ALL
 ASCII_MODE = False
 DEBUG_MODE = False
 
-description = """Baapg-Attack - Your Friendly Spammer Application
+description = """Diluter-Attack - Your Friendly Spammer Application
 
 Baapg-Attack can be used for many purposes which incudes -
 \t Exposing the vulnerable APIs over Internet
 \t Friendly Spamming
 \t Testing Your Spam Detector and more ....
 
-Baapg-Attack is not intented for malicious uses.
+Diluter-Attack is not intented for malicious uses.
 """
 
 parser = argparse.ArgumentParser(description=description,
